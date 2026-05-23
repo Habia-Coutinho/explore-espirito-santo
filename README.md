@@ -3,6 +3,7 @@
 
 ![Preview do projeto](https://via.placeholder.com/1200x600.png?text=Explore+Esp%C3%ADrito+Santo)
 
+
 ---
 
 ## 📌 Sobre o projeto
@@ -11,12 +12,14 @@ Site interativo que apresenta o estado do Espírito Santo (Brasil), destacando s
 
 O projeto foi desenvolvido com foco em prática de Front-End, interatividade e experiência do usuário.
 
+
 ---
 
 ## 🚀 Demonstração
 
 Acesse o projeto online:  
 https://habia-coutinho.github.io/explore-espirito-santo/
+
 
 ---
 
@@ -30,6 +33,7 @@ https://habia-coutinho.github.io/explore-espirito-santo/
 - 🧭 Navegação por seções
 - 🎨 Interface moderna e organizada
 
+
 ---
 
 ## 🛠️ Tecnologias utilizadas
@@ -40,21 +44,9 @@ https://habia-coutinho.github.io/explore-espirito-santo/
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white)
 ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)
 
----
-
-## 📂 Estrutura do projeto
-
-
-```text
-explore-espirito-santo/
-│
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-    └── preview.png
 
 ---
+
 
 ## 🧠 O que foi praticado
 
@@ -70,6 +62,7 @@ explore-espirito-santo/
 - Responsividade
 
 - Interatividade com o usuário
+
 
 ---
 
