@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espírito Santo | Terra Capixaba</title>
+
+  <!-- Fonte e Ícones -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Arquivo CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="cabecalho"  id="topo">
+    <h1 id="titulo"></h1>
+    <p id="subtitulo"></p>
+    
+    <!--Botao para alternar tema-->
+   <button id="theme-btn">
+  <i class="fa-solid fa-sun"></i>
+  <span id="theme-text"></span>
+</button>
+    
+    <!--Botao para alternar idiomas-->
+    <div class="idiomas">
+  <button id="btn-pt">PT</button>
+  <button id="btn-en">EN</button>
+</div>
+    
+    <!---Navegacao por indice-->
+<div class="navegacao">
+  <nav>
+    <ul>
+      <li><a href="#sobre"></a></li>
+      <li><a href="#localizacao"></a></li>
+      <li><a href="#cultura"></a></li>
+      <li><a href="#comidas"></a></li>
+      <li><a href="#galeria"></a></li>
+      <li><a href="#quiz"></a></li>
+      <li><a href="#curiosidades"></a></li>
+    </ul>
+  </nav>
+</div>
+    
+  </header>
+  <!--Conteúdo-->
+  <main class="conteudo">
+    <!--Sobre-->
+    <section id="sobre">
+      <h2 id="sobre-titulo"></h2>
+      <img id="bandeira"
+     alt="Bandeira do Espírito Santo"
+     src="https://upload.wikimedia.org/wikipedia/commons/2/20/Bandeira_do_Esp%C3%ADrito_Santo_%28cores_mais_escuras%29.svg">
+      <p id="sobre-p1"></p>
+        <p id="sobre-p2"></p>
+    </section>
+    
+      <!--Localizacao-->
+      <section id="localizacao">
+      <h2 id="localizacao-titulo"></h2>
+      <img id="mapa" 
+        alt="Mapa de localização do Espírito Santo no Brasil"
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Mapa_Esp%C3%ADrito_Santo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original">
+        <p id="loc-p1"></p>
+          <p id="loc-p2"></p>
+      </section>
+      <!--Cultura-->
+      <section id="cultura">
+        <h2 id="cultura-titulo"></h2>
+      <p id="cultura-p1"></p>
+        <p id="cultura-p2"></p>
+      </section>
+      <!--Comidas-->
+      <section id="comidas">
+        <h2 id="comidas-titulo"></h2>
+      <p id="comidas-p1"></p>
+        <p id="comidas-p2"></p>
+      </section>
+    
+    <!--Galeria de Fotos-->
+    <section id="galeria" aria-label="Galeria de imagens com navegação">
+      <h2 id="galeria-titulo"></h2>
+      <figure class="slider">
+        <img class="slide-img" 
+          alt="Vista panorâmica da cidade de Vitória, capital do Espírito Santo."
+           src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Vit%C3%B3ria%2C_Esp%C3%ADrito_Santo%2C_Brazil-12July2009.jpg" >
+        <figcaption id="descricao"></figcaption>
+      </figure>
+      <div class="botoes">
+        <button class="anterior" aria-label="Imagem anterior da Galeria">
+   <i class="fa-solid fa-chevron-left"></i>
+   <span id="btn-prev-text"></span>
+</button>
+      <button class="proximo" aria-label="Próxima imagem da Galeria">
+        <span id="btn-next-text"></span>
+   <i class="fa-solid fa-chevron-right"></i>
+</button>
+      </div>   
+    </section>
+    
+    <!--Quiz-->
+    <section id="quiz">
+      <h2 id="quiz-titulo"></h2>
+      <h3 id="pergunta-titulo"></h3>
+      <p id="pergunta">Carregando...</p>
+      <div id="respostas"></div>
+      <button id="reset" class="escondido"></button>
+      <div id="resultado">  
+      </div>
+    </section>
+    
+    <!--Curiosidades-->
+    <section id="curiosidades">
+      <h2 id="curiosidades-titulo"></h2>
+      <ul>
+     <li><i class="fa-solid fa-location-dot"></i></li>
+      <li><i class="fa-solid fa-church"></i></li>
+        <li><i class="fa-solid fa-mountain"></i></li>
+        <li><i class="fa-solid fa-fish"></i></li>
+      </ul>
+    </section>
+    
+  </main>
+  <!--Rodapé-->
+  <footer class="rodape" id="rodape">
+    <p></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

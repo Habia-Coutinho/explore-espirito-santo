@@ -1,0 +1,515 @@
+/*Reset + Base Global*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/*Imagens Responsivas*/
+img{
+  max-width: 100%;
+  display: block;
+}
+
+/*Botões*/
+button{
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  background-color: #0066cc;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/*Cabeçalho*/
+.cabecalho{
+  background: linear-gradient(135deg, #0066cc, #0099ff);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+/*Título*/
+.cabecalho h1{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/*Subtítulo*/
+.cabecalho p{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*Botão tema*/
+#theme-btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 6px 10px;
+  font-size: 0.75rem;
+  line-height: 1;
+
+  background: white;
+  color: #0066cc;
+
+  border: none;
+  border-radius: 20px;
+
+  width: auto;
+  min-width: auto;
+
+  z-index: 10;
+}
+
+/*Hover do botão*/
+#theme-btn:hover{
+  transform: scale(1.05);
+}
+
+/*Botao de idiomas*/
+.idiomas{
+  background:  white;
+  color: #0066cc;
+  position: absolute;
+  top:  5px;
+  left:6px;
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.idiomas button {
+  padding: 6px 6px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/*Hover do Botao idiomas*/
+.idiomas button:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.idiomas button.ativo {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+/*Conteúdo Principal*/
+.conteudo{
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section{
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+section:hover{
+  transform: translateY(-3px);
+}
+
+::selection{
+  background-color: #0066cc;
+  color: white;
+}
+
+/*Tipografia Interna*/
+section {
+  scroll-margin-top: 90px;
+  transition: transform 0.3s ease;
+}
+
+section h2{
+  font-size: 2rem;
+  margin-bottom: 18px;
+  text-align: center;
+  color: #0066cc;
+  transition: color 0.3s ease;
+}
+
+section p{
+  margin-bottom: 14px;
+  text-align: justify;
+}
+
+/*Imagens do Conteúdo*/
+#bandeira,
+#mapa{
+  width: 260px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/*Galeria*/
+.slider{
+  text-align: center;
+}
+
+.slide-img{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.15);
+  transition: opacity 0.5s ease;
+}
+
+
+/*Área dos botões da galeria*/
+.botoes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.botoes button{
+  width: auto;
+  min-width: 140px;
+}
+
+button:hover{
+  background-color: #004c99;
+  transform: translateY(-2px);
+}
+
+/*Área do Quiz*/
+#quiz  {
+  text-align: center;
+}
+
+#quiz p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.pergunta-titulo{
+  text-align: center;
+}
+
+#quiz button{
+  margin: 8px 8px 8px 0;
+}
+
+.certo {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.errado {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.certo:hover {
+  background-color: #2ecc71;
+}
+
+.errado:hover {
+  background-color: #e74c3c;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.resposta {
+  transition: all 0.3s ease;
+}
+
+.escondido {
+  display: none;
+}
+
+/*Resultado do Quiz*/
+#resultado{
+  margin-top: 18px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/*Curiosidades*/
+#curiosidades ul{
+  list-style: none;
+  text-align: center;
+}
+
+#curiosidades li{
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#curiosidades i{
+  color: #0066cc;
+  margin-right: 8px;
+}
+
+/*Rodapé*/
+.rodape{
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 40px;
+}
+
+/*Responsividade*/
+@media (max-width: 768px){
+
+  .cabecalho h1{
+    font-size: 2rem;
+  }
+
+  section{
+    padding: 20px;
+  }
+
+.botoes{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+  
+  #quiz button{
+  width: 100%;
+}
+
+.botoes button{
+    min-width: 120px;
+    padding: 10px 14px;
+}
+
+  #bandeira,
+  #mapa{
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  #theme-btn{
+  width: auto;
+  top: 8px;
+  right: 8px;
+  padding: 5px 8px;
+  font-size: 0.7rem;
+}
+  
+section p{
+ text-align:left;
+}
+  body.dark h3,
+body.dark h2 {
+  color: #f1f1f1;
+}
+  
+  body.dark .navegacao a {
+    color: white;
+  }
+}
+
+/*Transicao suave*/
+body,
+section,
+header,
+footer{
+  transition: all 0.3s ease;
+}
+
+/*Dark Mode*/
+body.dark{
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/*Botoes idiomas Dark Theme*/
+body.dark .idiomas button {
+  border: 2px solid #4da6ff;
+  color: #4da6ff;
+  background-color: transparent;
+}
+
+body.dark .idiomas button:hover {
+  background-color: #4da6ff;
+  color: #121212;
+}
+
+body.dark .idiomas button.ativo {
+  background-color: #4da6ff;
+  color: #121212;
+  border-color: #4da6ff;
+}
+
+/*Sections no modo escuro*/
+body.dark section{
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 12px rgba(255,255,255,0.05);
+}
+
+/*Header escuro*/
+body.dark .cabecalho{
+  background: linear-gradient(135deg, #000, #6666);
+}
+
+
+/*Rodapé escuro*/
+body.dark .rodape{
+  background-color: #00000;
+}
+
+/*Botao tema escuro*/
+body.dark #theme-btn{
+  background-color: #333;
+  color: white;
+}
+
+body.dark h1,
+body.dark h2{
+  color:  royalblue;
+  text-shadow: 0 0 6px rgba(77, 166, 255, 0.4);
+}
+
+#titulo,
+body.dark h3 {
+  color: whitesmoke;
+  text-shadow: 0 0 6px rgba(77, 166, 255, 0.4);
+}
+
+body.dark .navegacao a {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark .navegacao a:hover {
+  background-color: #ffffff;
+  color: #0066cc;
+}
+
+
+#theme-btn i{
+  transition: all 0.3s ease;
+}
+  
+  /*Subir e descer */
+.cabecalho,
+.rodape{
+  cursor: pointer;
+}
+.cabecalho:hover,
+.rodape:hover{
+  opacity: 0.95;
+}
+
+/* Navegação */
+.navegacao {
+  margin-top: 20px;
+}
+
+/* Lista */
+.navegacao ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.navegacao li {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Links */
+.navegacao a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+  word-break: break-word;
+  white-space: normal;
+}
+
+
+/* Hover */
+.navegacao a:hover {
+  background-color: white;
+  color: #0066cc;
+  transform: translateY(-2px);
+}
+
+/*Botao reset do quiz*/
+#reset {
+  background-color: deepskyblue;
+  color: white;
+  border: 2px solid #0066cc;
+  margin-top: 20px;
+   opacity: 0.9;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+}
+
+#reset:hover {
+  background-color: paleturquoise;
+  opacity: 1;
+}
+
+/*Reset Dark Mode*/
+body.dark #reset {
+  color: #4da6ff;
+  border-color: #4da6ff;
+}
+
+body.dark #reset:hover {
+  background-color: #4da6ff;
+  color: #121212;
+}
