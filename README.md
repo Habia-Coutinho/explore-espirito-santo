@@ -44,6 +44,8 @@ https://habia-coutinho.github.io/explore-espirito-santo/
 
 ## 📂 Estrutura do projeto
 
+## 📂 Estrutura do projeto
+
 ```text
 explore-espirito-santo/
 │
@@ -53,12 +55,10 @@ explore-espirito-santo/
 └── assets/
     └── preview.png
 
-
 ---
 
 ## 🧠 O que foi praticado
 
-Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
 
 - Manipulação do DOM
 
