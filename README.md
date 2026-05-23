@@ -44,7 +44,6 @@ https://habia-coutinho.github.io/explore-espirito-santo/
 
 ## 📂 Estrutura do projeto
 
-## 📂 Estrutura do projeto
 
 ```text
 explore-espirito-santo/
@@ -55,7 +54,7 @@ explore-espirito-santo/
 └── assets/
     └── preview.png
 
-
+---
 
 ## 🧠 O que foi praticado
 
@@ -71,8 +70,6 @@ explore-espirito-santo/
 - Responsividade
 
 - Interatividade com o usuário
-
-
 
 ---
 
