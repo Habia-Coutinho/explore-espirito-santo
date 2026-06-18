@@ -264,7 +264,7 @@ function anteriorSlide() {
 // Iniciar Autoplay (troca automática)
   
 function iniciarAutoplay() {
-  intervalo = setInterval(proximoSlide, 5000);
+  intervalo = setInterval(proximoSlide, 8000);
 }
   
 // Reiniciar Autoplay (após interação)
