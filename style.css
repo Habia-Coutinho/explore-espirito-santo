@@ -1,4 +1,4 @@
-/*Reset + Base Global*/
+/*Reset
 *{
   margin: 0;
   padding: 0;
@@ -430,7 +430,7 @@ body.dark .navegacao a:hover {
   transition: all 0.3s ease;
 }
   
-  /*Subir e descer */
+/*Subir e descer */
 .cabecalho,
 .rodape{
   cursor: pointer;
