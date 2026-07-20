@@ -1,8 +1,6 @@
 
 # Explore Espírito Santo 🌄
 
-![Preview do projeto](https://via.placeholder.com/1200x600.png?text=Explore+Esp%C3%ADrito+Santo)
-
 
 ---
 
